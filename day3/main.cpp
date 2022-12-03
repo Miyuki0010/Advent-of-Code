@@ -5,14 +5,10 @@
 #include <set>
 #include <algorithm>
 
-
-
-
 using namespace std;
 
 vector<string> readFile();
 unordered_map<char, int> getLetterMap();
-
 
 int main() {
 	vector<string> data = readFile();
